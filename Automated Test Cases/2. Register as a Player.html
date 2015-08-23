@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>1. Register as a Player</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">1. Register as a Player</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/fnaticmsi/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Register now</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Players_PlayerUsername</td>
+	<td>TestUser2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Players_PlayerPassword</td>
+	<td>123456789</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Players_PlayerFirstName</td>
+	<td>TestFN</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Players_PlayerNickName</td>
+	<td>TestNN</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Players_PlayerLastName</td>
+	<td>TestLN</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=Players_GameID</td>
+	<td>label=CS:GO</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Achievements_AchievementID_0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#Achievements_AchievementID &gt; label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Achievements_AchievementID_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span[@id='Achievements_AchievementID']/label[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Achievements_AchievementID_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span[@id='Achievements_AchievementID']/label[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Achievements_AchievementID_3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span[@id='Achievements_AchievementID']/label[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Achievements_AchievementID_4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span[@id='Achievements_AchievementID']/label[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Players_Salary</td>
+	<td>9000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Playersaddresses_PlayerAddress</td>
+	<td>TestAddress</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Playerscities_PlayerCity</td>
+	<td>TestCity</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=yt0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=yt0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.alert.alert-success</td>
+	<td>× Well done! You registration is successful. Now you can sign in.</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
