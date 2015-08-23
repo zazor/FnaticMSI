@@ -1,0 +1,32 @@
+Preconditions:
+- Operating system (Windows) installed
+- Browser (Google Chrome/Mozilla Firefox) installed
+
+Steps:
+1. Open browser 
+2. Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar 
+3. Enter Username in 'Username' field
+4. Enter Password in 'Password' field
+5. Press button 'Login'
+6. If User is logged successfully, in the top right corner, click on Player's name
+7. Press "Account Settings" from the drop down menu
+8. Edit Username from "Player Username" field
+9. Edit Password from "Player Password" field
+10. Edit First Name from "Player First Name" field
+11. Edit Nick Name from "Player Nick Name" field
+12. Edit Last Name from "Player Last Name" field
+13. Edit Last Name from "Player Last Name" field
+14. Edit Game which Player is playing from "Game" drop down menu
+15. Edit Achievements from "Achievements" menu
+16. Edit Salary from "Salary" field
+17. Edit Address from "Player Address" field
+18. Edit City from "Player City" field
+19. Press button "Save Changes"
+20. Click on "Dashboard" on top left of the page
+21. Click on button "View" on the right side of the page 
+
+
+Expected Result(s):
+19. Player changes should be saved 
+20. Player information should be updated in all edited fields 
+21. Detailed Player information should be updated in all edited fields 

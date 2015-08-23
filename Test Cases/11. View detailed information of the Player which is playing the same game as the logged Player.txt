@@ -1,0 +1,15 @@
+Preconditions:
+- Operating system (Windows) installed
+- Browser (Google Chrome/Mozilla Firefox) installed
+- At least one Player should play the same game as logged User
+
+Steps:
+1. Open browser 
+2. Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar 
+3. Enter Username in 'Username' field
+4. Enter Password in 'Password' field
+5. Press button 'Login'
+6. When User is logged successfully, press button "View" (button is placed on the right side of the Player details) for the Player which is playing the same game as the logged User
+
+Expected Result(s):
+- Detailed Player information should be displayed (Nick Name, Game, Game Genre, City, Address, Achievements)

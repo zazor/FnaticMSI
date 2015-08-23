@@ -1,0 +1,15 @@
+Preconditions:
+- Operating system (Windows) installed
+- Browser (Google Chrome/Mozilla Firefox) installed
+
+Steps:
+1. Open browser 
+2. Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar 
+3. Enter Username in 'Username' field
+4. Enter Password in 'Password' field
+5. Press button 'Login' 
+
+Expected Result(s):
+- Manager should be logged in successfully
+- Manager should see the on which Game he is a Manager
+- If any Player is playing the same Game on which logged User is a Manager, all Player details (ID, USERNAME, FIRSTNAME, NICKNAME, LASTNAME, SALARY, ADDRESS, CITY) should be displayed

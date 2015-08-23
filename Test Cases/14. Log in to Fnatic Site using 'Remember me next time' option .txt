@@ -1,0 +1,17 @@
+Preconditions:
+- Operating system (Windows) installed
+- Browser (Google Chrome/Mozilla Firefox) installed
+
+Steps:
+1. Open browser 
+2. Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar 
+3. Enter Username in 'Username' field
+4. Enter Password in 'Password' field
+5. Mark checkbox "Remember me next time"
+6. Press button 'Login'
+7. Close browser
+8. Open browser
+9. Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar 
+
+Expected Result(s):
+- User which used option "Remember me next time" should be automatically logged

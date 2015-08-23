@@ -1,0 +1,24 @@
+Preconditions:
+- Operating system (Windows) installed
+- Browser (Google Chrome/Mozilla Firefox) installed
+
+Steps:
+1. Open browser 
+2. Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar 
+3. Enter Username in 'Username' field
+4. Enter Password in 'Password' field
+5. Press button 'Login'
+6. If User is logged successfully, in the top right corner, click on Manager's name
+7. Edit Username from "Manager Username" field
+8. Edit Password from "Manager password" field
+9. Edit First Name from "Manager First Name" field
+10. Edit Last Name from "Manager Last Name" field
+11. Edit Address from "Manager Address" field
+12. Edit City from "Manager City" field
+13. Press button "Save changes"
+14. Click on Manager's name in the upper right corner of the page
+15. Press "View Profile" from the drop down menu
+
+Expected Result(s):
+13. Manager changes should be saved
+15. Manager information should be updated in all edited fields 

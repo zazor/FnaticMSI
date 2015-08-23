@@ -1,0 +1,22 @@
+Preconditions:
+- Operating system (Windows) installed
+- Browser (Google Chrome/Mozilla Firefox) installed
+
+1. Open browser 
+2. Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar. 
+3. Press button 'Register now' 
+4. Select tab 'Register as a player'
+5. Enter Username in 'Username' field
+6. Enter Password in 'Password' field
+7. Enter First Name in 'First Name' field
+8. Enter Nick Name in 'Nick Name' field
+9. Enter Last Name in 'Last Name' field
+10. Select Game from drop down menu 'Select Game'
+11. Select achievements from 'Achievements' menu
+12. Enter Salary in 'Salary' field
+13. Enter Address in 'Address' field
+14. Enter City in 'City' field
+15. Press button 'Register' 
+
+Expected Result(s):
+- Message "Well done! Your registration is successful. Now you can sign in." should appear

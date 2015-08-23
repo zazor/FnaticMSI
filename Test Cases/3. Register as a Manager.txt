@@ -1,0 +1,19 @@
+Preconditions:
+- Operating system (Windows) installed
+- Browser (Google Chrome/Mozilla Firefox) installed
+
+Steps:
+1. Open browser 
+2. Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar. 
+3. Press button 'Register now' 
+4. Select tab 'Register as a manager'
+5. Enter Username in 'Username' field
+6. Enter Password in 'Password' field
+7. Enter First Name in 'First Name' field
+8. Enter Last Name in 'Nick Name' field
+9. Enter Address in 'Address' field
+10. Enter City in 'City' field
+11. Select on which game you want to be manager of from drop down menu "You want to be manager of:"
+
+Expected Result(s):
+- Message "Well done! Your registration is successful. Now you can sign in." should appear.

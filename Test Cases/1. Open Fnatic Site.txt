@@ -1,0 +1,10 @@
+Preconditions:
+- Operating system (Windows) installed
+- Browser (Google Chrome/Mozilla Firefox) installed
+
+1. Open browser 
+2. Enter the following address Enter the following address "localhost/fnaticmsi" (localhost should be replaced with IP of the machine which host the site) in address bar
+
+Expected Result(s):
+- Fnatic site should be successfully opened
+- Login form should appear
